@@ -1,0 +1,16 @@
+PODS:
+  - TipJarComponent (0.0.1)
+
+DEPENDENCIES:
+  - TipJarComponent (from `../`)
+
+EXTERNAL SOURCES:
+  TipJarComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TipJarComponent: 56eb70221126f8f901cdb2ee8e22d6e3570311c3
+
+PODFILE CHECKSUM: b5e7325a210b5299c009c718cf1b12aa7043732e
+
+COCOAPODS: 1.7.4

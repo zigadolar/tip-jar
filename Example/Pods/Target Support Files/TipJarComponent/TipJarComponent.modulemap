@@ -1,0 +1,6 @@
+framework module TipJarComponent {
+  umbrella header "TipJarComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

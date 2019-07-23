@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476E9B8B865FF55B5DDE1083D5CA15E3 /* Pods-TipJarComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F78A32B2B2B584F36EA318D8F5ECB6A /* Pods-TipJarComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E1CFED9116E16E42E856ED5694F9983 /* TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D12C32946054FFA930ED1F10BE493 /* TipJarViewController.swift */; };
+		5D5A10A66C61F542EE08B6F8AE0B73D1 /* TipJarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C47A70459ABA00E720D4D8B3B7DA3 /* TipJarWindow.swift */; };
+		64C2B8EC8658718A4FD902E5EB038F78 /* TipJarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042F6FFAAE154C835C9335B16BFA0B2F /* TipJarAssets.xcassets */; };
+		68CE0F7ECDACE2CD559D7DF94066AEB0 /* TipJar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791CCA370D14BEE5AABA20F9A6CE17D0 /* TipJar.storyboard */; };
+		6DE64DFF820DE240FDB36318140B0992 /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781D43C17E11D5948FEE8E0E98AABB6D /* BackgroundViewController.swift */; };
+		7951867DAFAACCFFA1C27186820F471B /* UIButton+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AF8B1EF81F97344F8FEC25A830B99 /* UIButton+Utilities.swift */; };
+		7B4D800D893D67D53F5A0762433C7D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96E96D4EEE5A5E86058C92430889C8C /* Foundation.framework */; };
+		7BCCE513B06B4092B81898B9DFF3992A /* Bundle+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24226DD00FAACF4D6E6317C76D7465 /* Bundle+Utility.swift */; };
+		822704F539953A27682D51F072192605 /* TipJarComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C574AB7C1E9502865ACDF916E21AE3 /* TipJarComponent-dummy.m */; };
+		84698CD877A156D1628123265A676D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96E96D4EEE5A5E86058C92430889C8C /* Foundation.framework */; };
+		90970FE28A3D6890C1AE7F5718F72EFF /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ECAF2C42AB6B9EA45501A5BD9D8929 /* TipView.swift */; };
+		962C5E410CD94EC449ADB2CCB85FADC3 /* Pods-TipJarComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CE69F2E8883FD0CD0C55D88D79F46D /* Pods-TipJarComponent_Example-dummy.m */; };
+		AEC00CA29446FB287DE756C06D727FE6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30A569BE8601B6A65AB598FA3DCA819 /* StoreKit.framework */; };
+		BAE977884241C27D83BA2D2ABC86A293 /* TipPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19453DA4167FF4CE5BC317091B71332 /* TipPersistenceManager.swift */; };
+		BB9FAF3F18238F9ED0F4D12F3F5E4FC3 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D78FAFF30A215DE2B30F3784EDB8282 /* StoreManager.swift */; };
+		BDCF1C205F3EF1771194AF42FFBF0DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E574C9F4CCF7EA98A595469DF60745 /* UIKit.framework */; };
+		C0390254BB11B612B2F3C752541F0ECE /* TipJarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E88B7B1AEE7206AEEB0B09B47C98CF /* TipJarManager.swift */; };
+		C11A973DD4ED0AE30414DDE4D3889405 /* TipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66E57498B193D41CD9F673A68C573D8 /* TipView.xib */; };
+		C2C8948E145AAB2F40AC478C29085B49 /* UIImage+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB7049741392E3712C6BE679C0462C /* UIImage+Utilities.swift */; };
+		D20938FB7D4222B4A024380CD84BC63F /* TipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152C6F2093BDA6407D1F2898F62420E4 /* TipButton.swift */; };
+		D2644B629D3B482C4040B37CD49E8BF3 /* TipJarComponent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE79D6FC668AE1D8A269FD28E651DA10 /* TipJarComponent.bundle */; };
+		DC2A79F9742DAF60E947C0CB2A94AB80 /* TipJarComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 976298C7F571DE2421E19AC8379CF5CD /* TipJarComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1ACD9F1298379B45743E44E627E29E2 /* UIView+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC8424ACFA3EB9C3CFF01D5673DB1F /* UIView+Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B389EAC9312298D66DB61029E67D18E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961FAF05442D25F24E0B67C773F85239;
+			remoteInfo = "TipJarComponent-TipJarComponent";
+		};
+		E4B300A270F2644479E95EF309CF2B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA2356E038C3A01CBE6820A8BCB845C;
+			remoteInfo = TipJarComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C607325FCBACB9420754F1A8C96400 /* Pods-TipJarComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipJarComponent_Example.modulemap"; sourceTree = "<group>"; };
+		042F6FFAAE154C835C9335B16BFA0B2F /* TipJarAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TipJarAssets.xcassets; path = TipJarComponent/Assets/TipJarAssets.xcassets; sourceTree = "<group>"; };
+		13B9473F27B96E150B203A9529EE5F9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		152C6F2093BDA6407D1F2898F62420E4 /* TipButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TipButton.swift; sourceTree = "<group>"; };
+		17A2BD85DF1DA570FAD26D6602A20204 /* Pods-TipJarComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		21E574C9F4CCF7EA98A595469DF60745 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		28C574AB7C1E9502865ACDF916E21AE3 /* TipJarComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TipJarComponent-dummy.m"; sourceTree = "<group>"; };
+		29689036E047ED9BBB8439167A3A3E55 /* TipJarComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarComponent-prefix.pch"; sourceTree = "<group>"; };
+		2B4C47A70459ABA00E720D4D8B3B7DA3 /* TipJarWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TipJarWindow.swift; sourceTree = "<group>"; };
+		4F78A32B2B2B584F36EA318D8F5ECB6A /* Pods-TipJarComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipJarComponent_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C24226DD00FAACF4D6E6317C76D7465 /* Bundle+Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Utility.swift"; sourceTree = "<group>"; };
+		5EBC8424ACFA3EB9C3CFF01D5673DB1F /* UIView+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Utilities.swift"; sourceTree = "<group>"; };
+		664161C0D8B5631FEBAA58E9E5E2CA1E /* TipJarComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TipJarComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66CE69F2E8883FD0CD0C55D88D79F46D /* Pods-TipJarComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarComponent_Example-dummy.m"; sourceTree = "<group>"; };
+		781D43C17E11D5948FEE8E0E98AABB6D /* BackgroundViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
+		791CCA370D14BEE5AABA20F9A6CE17D0 /* TipJar.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = TipJar.storyboard; path = TipJarComponent/Assets/TipJar.storyboard; sourceTree = "<group>"; };
+		7D78FAFF30A215DE2B30F3784EDB8282 /* StoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreManager.swift; path = TipJarComponent/Classes/StoreManager.swift; sourceTree = "<group>"; };
+		8BFF15AA2AB26F703908843593C65834 /* Pods-TipJarComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8F8AF8B1EF81F97344F8FEC25A830B99 /* UIButton+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Utilities.swift"; sourceTree = "<group>"; };
+		94FFDE72CF5224C96799F7ECF0F4D134 /* TipJarComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TipJarComponent.framework; path = TipJarComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		976298C7F571DE2421E19AC8379CF5CD /* TipJarComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarComponent-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB6D12C32946054FFA930ED1F10BE493 /* TipJarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TipJarViewController.swift; sourceTree = "<group>"; };
+		AD6E2CE45D360DAA54366302A558DFBC /* Pods-TipJarComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B19453DA4167FF4CE5BC317091B71332 /* TipPersistenceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipPersistenceManager.swift; path = TipJarComponent/Classes/TipPersistenceManager.swift; sourceTree = "<group>"; };
+		B2ECAF2C42AB6B9EA45501A5BD9D8929 /* TipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
+		B66E57498B193D41CD9F673A68C573D8 /* TipView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TipView.xib; path = TipJarComponent/Assets/TipView.xib; sourceTree = "<group>"; };
+		C18A44AC47AA4BCBBD9A8D7C04922B69 /* Pods-TipJarComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2B1400D87D9D876D3F57D82DBA873F9 /* Pods-TipJarComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarComponent_Example-Info.plist"; sourceTree = "<group>"; };
+		C310370AB4554D596FA8741456F30ECD /* Pods_TipJarComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TipJarComponent_Example.framework; path = "Pods-TipJarComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA6D50559EC4DCCCFA738835223F7FA /* TipJarComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TipJarComponent-Info.plist"; sourceTree = "<group>"; };
+		CE79D6FC668AE1D8A269FD28E651DA10 /* TipJarComponent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TipJarComponent.bundle; path = "TipJarComponent-TipJarComponent.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCB7049741392E3712C6BE679C0462C /* UIImage+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Utilities.swift"; sourceTree = "<group>"; };
+		D30A569BE8601B6A65AB598FA3DCA819 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		DBAED482EC4CE1203644241B7E4C2CCA /* Pods-TipJarComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF3F7C2AF3AB0EE1D94EBDC6174A75D4 /* ResourceBundle-TipJarComponent-TipJarComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TipJarComponent-TipJarComponent-Info.plist"; sourceTree = "<group>"; };
+		F0ABE24C644C381984EBB00FDBBD5FC6 /* TipJarComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TipJarComponent.xcconfig; sourceTree = "<group>"; };
+		F32747272C1397F8F4595E5AA0EA2014 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F50E5BE54F4CA594A10051CF6143693B /* TipJarComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TipJarComponent.modulemap; sourceTree = "<group>"; };
+		F5E88B7B1AEE7206AEEB0B09B47C98CF /* TipJarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarManager.swift; path = TipJarComponent/Classes/TipJarManager.swift; sourceTree = "<group>"; };
+		F96E96D4EEE5A5E86058C92430889C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BAF018E96F3D3731F04672AFFCB55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4D800D893D67D53F5A0762433C7D6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAEBD411C1BD916F1D7BF5C912A2A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6035F9662FAB488E239E39FB8B5720A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84698CD877A156D1628123265A676D1A /* Foundation.framework in Frameworks */,
+				AEC00CA29446FB287DE756C06D727FE6 /* StoreKit.framework in Frameworks */,
+				BDCF1C205F3EF1771194AF42FFBF0DF0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B32CA659107E7F084D93E62F0701C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD00EE976599A243BD4923E92C24AD74 /* TipJarComponent */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0300676562369F3599291F7D3D116721 /* Pods-TipJarComponent_Example */ = {
+			isa = PBXGroup;
+			children = (
+				03C607325FCBACB9420754F1A8C96400 /* Pods-TipJarComponent_Example.modulemap */,
+				DBAED482EC4CE1203644241B7E4C2CCA /* Pods-TipJarComponent_Example-acknowledgements.markdown */,
+				C18A44AC47AA4BCBBD9A8D7C04922B69 /* Pods-TipJarComponent_Example-acknowledgements.plist */,
+				66CE69F2E8883FD0CD0C55D88D79F46D /* Pods-TipJarComponent_Example-dummy.m */,
+				8BFF15AA2AB26F703908843593C65834 /* Pods-TipJarComponent_Example-frameworks.sh */,
+				C2B1400D87D9D876D3F57D82DBA873F9 /* Pods-TipJarComponent_Example-Info.plist */,
+				4F78A32B2B2B584F36EA318D8F5ECB6A /* Pods-TipJarComponent_Example-umbrella.h */,
+				17A2BD85DF1DA570FAD26D6602A20204 /* Pods-TipJarComponent_Example.debug.xcconfig */,
+				AD6E2CE45D360DAA54366302A558DFBC /* Pods-TipJarComponent_Example.release.xcconfig */,
+			);
+			name = "Pods-TipJarComponent_Example";
+			path = "Target Support Files/Pods-TipJarComponent_Example";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD005EC54EA693165CEB77C8CF0ABDC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C4DF038A0C7A669567894F99676E4CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0300676562369F3599291F7D3D116721 /* Pods-TipJarComponent_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41D16E220DDC29EBC655169513DFFF27 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5C24226DD00FAACF4D6E6317C76D7465 /* Bundle+Utility.swift */,
+				8F8AF8B1EF81F97344F8FEC25A830B99 /* UIButton+Utilities.swift */,
+				CFCB7049741392E3712C6BE679C0462C /* UIImage+Utilities.swift */,
+				5EBC8424ACFA3EB9C3CFF01D5673DB1F /* UIView+Utilities.swift */,
+			);
+			name = Utilities;
+			path = TipJarComponent/Classes/Utilities;
+			sourceTree = "<group>";
+		};
+		41DBD41C792DA34C22A007128EA50C2B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				781D43C17E11D5948FEE8E0E98AABB6D /* BackgroundViewController.swift */,
+				152C6F2093BDA6407D1F2898F62420E4 /* TipButton.swift */,
+				AB6D12C32946054FFA930ED1F10BE493 /* TipJarViewController.swift */,
+				2B4C47A70459ABA00E720D4D8B3B7DA3 /* TipJarWindow.swift */,
+				B2ECAF2C42AB6B9EA45501A5BD9D8929 /* TipView.swift */,
+			);
+			name = UI;
+			path = TipJarComponent/Classes/UI;
+			sourceTree = "<group>";
+		};
+		5AD005EC54EA693165CEB77C8CF0ABDC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F96E96D4EEE5A5E86058C92430889C8C /* Foundation.framework */,
+				D30A569BE8601B6A65AB598FA3DCA819 /* StoreKit.framework */,
+				21E574C9F4CCF7EA98A595469DF60745 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		81A9A979B5FDD1FE168DBCBC25B0709F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F32747272C1397F8F4595E5AA0EA2014 /* LICENSE */,
+				13B9473F27B96E150B203A9529EE5F9B /* README.md */,
+				664161C0D8B5631FEBAA58E9E5E2CA1E /* TipJarComponent.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		893E2FE302FC69002CDB2B9638482A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C310370AB4554D596FA8741456F30ECD /* Pods_TipJarComponent_Example.framework */,
+				CE79D6FC668AE1D8A269FD28E651DA10 /* TipJarComponent.bundle */,
+				94FFDE72CF5224C96799F7ECF0F4D134 /* TipJarComponent.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9BA8E9018A7256EE66CAECED858AA65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3F7C2AF3AB0EE1D94EBDC6174A75D4 /* ResourceBundle-TipJarComponent-TipJarComponent-Info.plist */,
+				F50E5BE54F4CA594A10051CF6143693B /* TipJarComponent.modulemap */,
+				F0ABE24C644C381984EBB00FDBBD5FC6 /* TipJarComponent.xcconfig */,
+				28C574AB7C1E9502865ACDF916E21AE3 /* TipJarComponent-dummy.m */,
+				CCA6D50559EC4DCCCFA738835223F7FA /* TipJarComponent-Info.plist */,
+				29689036E047ED9BBB8439167A3A3E55 /* TipJarComponent-prefix.pch */,
+				976298C7F571DE2421E19AC8379CF5CD /* TipJarComponent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TipJarComponent";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				01B32CA659107E7F084D93E62F0701C9 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				893E2FE302FC69002CDB2B9638482A72 /* Products */,
+				1C4DF038A0C7A669567894F99676E4CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD00EE976599A243BD4923E92C24AD74 /* TipJarComponent */ = {
+			isa = PBXGroup;
+			children = (
+				7D78FAFF30A215DE2B30F3784EDB8282 /* StoreManager.swift */,
+				F5E88B7B1AEE7206AEEB0B09B47C98CF /* TipJarManager.swift */,
+				B19453DA4167FF4CE5BC317091B71332 /* TipPersistenceManager.swift */,
+				81A9A979B5FDD1FE168DBCBC25B0709F /* Pod */,
+				EC55F99FB9BF014FA2E72A3E733A71C8 /* Resources */,
+				A9BA8E9018A7256EE66CAECED858AA65 /* Support Files */,
+				41DBD41C792DA34C22A007128EA50C2B /* UI */,
+				41D16E220DDC29EBC655169513DFFF27 /* Utilities */,
+			);
+			name = TipJarComponent;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EC55F99FB9BF014FA2E72A3E733A71C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				791CCA370D14BEE5AABA20F9A6CE17D0 /* TipJar.storyboard */,
+				042F6FFAAE154C835C9335B16BFA0B2F /* TipJarAssets.xcassets */,
+				B66E57498B193D41CD9F673A68C573D8 /* TipView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2858AACE7FE6A731B15CC606BE70ECC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476E9B8B865FF55B5DDE1083D5CA15E3 /* Pods-TipJarComponent_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2945F5BED27F1ECAEAA60F76FB371D6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2A79F9742DAF60E947C0CB2A94AB80 /* TipJarComponent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FA2356E038C3A01CBE6820A8BCB845C /* TipJarComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885D9C7771FDDE70B246281EED23489D /* Build configuration list for PBXNativeTarget "TipJarComponent" */;
+			buildPhases = (
+				2945F5BED27F1ECAEAA60F76FB371D6D /* Headers */,
+				9E28EF8D3A59855A2ECDAD85394F736F /* Sources */,
+				6035F9662FAB488E239E39FB8B5720A2 /* Frameworks */,
+				3A627FAF660A6DEB0F31E3E835CA880D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18419DEB86614D8DD0C595B5DBBBDC44 /* PBXTargetDependency */,
+			);
+			name = TipJarComponent;
+			productName = TipJarComponent;
+			productReference = 94FFDE72CF5224C96799F7ECF0F4D134 /* TipJarComponent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70162E20EF42B260C3F73D9F8B521B4D /* Pods-TipJarComponent_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7034F1A042CC47953612256E96683DCE /* Build configuration list for PBXNativeTarget "Pods-TipJarComponent_Example" */;
+			buildPhases = (
+				2858AACE7FE6A731B15CC606BE70ECC7 /* Headers */,
+				CE93BBBE511F2063ACB85A3C5324E732 /* Sources */,
+				13BAF018E96F3D3731F04672AFFCB55B /* Frameworks */,
+				977AE688D5621645788CFDE7C3141F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81F50C5A82D58FE2296A9BBB98FFCAC /* PBXTargetDependency */,
+			);
+			name = "Pods-TipJarComponent_Example";
+			productName = "Pods-TipJarComponent_Example";
+			productReference = C310370AB4554D596FA8741456F30ECD /* Pods_TipJarComponent_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		961FAF05442D25F24E0B67C773F85239 /* TipJarComponent-TipJarComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1D6C18F5D9460215C1C27BB97D49B0 /* Build configuration list for PBXNativeTarget "TipJarComponent-TipJarComponent" */;
+			buildPhases = (
+				C0950BEB53FC201F35867158135CE948 /* Sources */,
+				5DAEBD411C1BD916F1D7BF5C912A2A24 /* Frameworks */,
+				AAD1103E26FE17C44C800DD8C247F9BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TipJarComponent-TipJarComponent";
+			productName = "TipJarComponent-TipJarComponent";
+			productReference = CE79D6FC668AE1D8A269FD28E651DA10 /* TipJarComponent.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 893E2FE302FC69002CDB2B9638482A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70162E20EF42B260C3F73D9F8B521B4D /* Pods-TipJarComponent_Example */,
+				2FA2356E038C3A01CBE6820A8BCB845C /* TipJarComponent */,
+				961FAF05442D25F24E0B67C773F85239 /* TipJarComponent-TipJarComponent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A627FAF660A6DEB0F31E3E835CA880D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2644B629D3B482C4040B37CD49E8BF3 /* TipJarComponent.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977AE688D5621645788CFDE7C3141F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD1103E26FE17C44C800DD8C247F9BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CE0F7ECDACE2CD559D7DF94066AEB0 /* TipJar.storyboard in Resources */,
+				64C2B8EC8658718A4FD902E5EB038F78 /* TipJarAssets.xcassets in Resources */,
+				C11A973DD4ED0AE30414DDE4D3889405 /* TipView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E28EF8D3A59855A2ECDAD85394F736F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE64DFF820DE240FDB36318140B0992 /* BackgroundViewController.swift in Sources */,
+				7BCCE513B06B4092B81898B9DFF3992A /* Bundle+Utility.swift in Sources */,
+				BB9FAF3F18238F9ED0F4D12F3F5E4FC3 /* StoreManager.swift in Sources */,
+				D20938FB7D4222B4A024380CD84BC63F /* TipButton.swift in Sources */,
+				822704F539953A27682D51F072192605 /* TipJarComponent-dummy.m in Sources */,
+				C0390254BB11B612B2F3C752541F0ECE /* TipJarManager.swift in Sources */,
+				4E1CFED9116E16E42E856ED5694F9983 /* TipJarViewController.swift in Sources */,
+				5D5A10A66C61F542EE08B6F8AE0B73D1 /* TipJarWindow.swift in Sources */,
+				BAE977884241C27D83BA2D2ABC86A293 /* TipPersistenceManager.swift in Sources */,
+				90970FE28A3D6890C1AE7F5718F72EFF /* TipView.swift in Sources */,
+				7951867DAFAACCFFA1C27186820F471B /* UIButton+Utilities.swift in Sources */,
+				C2C8948E145AAB2F40AC478C29085B49 /* UIImage+Utilities.swift in Sources */,
+				E1ACD9F1298379B45743E44E627E29E2 /* UIView+Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0950BEB53FC201F35867158135CE948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE93BBBE511F2063ACB85A3C5324E732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962C5E410CD94EC449ADB2CCB85FADC3 /* Pods-TipJarComponent_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18419DEB86614D8DD0C595B5DBBBDC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TipJarComponent-TipJarComponent";
+			target = 961FAF05442D25F24E0B67C773F85239 /* TipJarComponent-TipJarComponent */;
+			targetProxy = B389EAC9312298D66DB61029E67D18E1 /* PBXContainerItemProxy */;
+		};
+		D81F50C5A82D58FE2296A9BBB98FFCAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TipJarComponent;
+			target = 2FA2356E038C3A01CBE6820A8BCB845C /* TipJarComponent */;
+			targetProxy = E4B300A270F2644479E95EF309CF2B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BE813D25D46BB29A78C01A1F762FBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0ABE24C644C381984EBB00FDBBD5FC6 /* TipJarComponent.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TipJarComponent/TipJarComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TipJarComponent/TipJarComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TipJarComponent/TipJarComponent.modulemap";
+				PRODUCT_MODULE_NAME = TipJarComponent;
+				PRODUCT_NAME = TipJarComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60427AA8DC9856FF5413DA8344102B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0ABE24C644C381984EBB00FDBBD5FC6 /* TipJarComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TipJarComponent";
+				INFOPLIST_FILE = "Target Support Files/TipJarComponent/ResourceBundle-TipJarComponent-TipJarComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TipJarComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9DDCCDD4025A6460FB8DD7E329B47269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0ABE24C644C381984EBB00FDBBD5FC6 /* TipJarComponent.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TipJarComponent/TipJarComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TipJarComponent/TipJarComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TipJarComponent/TipJarComponent.modulemap";
+				PRODUCT_MODULE_NAME = TipJarComponent;
+				PRODUCT_NAME = TipJarComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE16FA39EE8029896022CEE4E99BDEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6E2CE45D360DAA54366302A558DFBC /* Pods-TipJarComponent_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipJarComponent_Example/Pods-TipJarComponent_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipJarComponent_Example/Pods-TipJarComponent_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC1960655CDC4A6A8890BA376C445CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A2BD85DF1DA570FAD26D6602A20204 /* Pods-TipJarComponent_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipJarComponent_Example/Pods-TipJarComponent_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipJarComponent_Example/Pods-TipJarComponent_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8FE7D0C8B17440E9963338F66BF3E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0ABE24C644C381984EBB00FDBBD5FC6 /* TipJarComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TipJarComponent";
+				INFOPLIST_FILE = "Target Support Files/TipJarComponent/ResourceBundle-TipJarComponent-TipJarComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TipJarComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7034F1A042CC47953612256E96683DCE /* Build configuration list for PBXNativeTarget "Pods-TipJarComponent_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1960655CDC4A6A8890BA376C445CFC /* Debug */,
+				AE16FA39EE8029896022CEE4E99BDEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1D6C18F5D9460215C1C27BB97D49B0 /* Build configuration list for PBXNativeTarget "TipJarComponent-TipJarComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FE7D0C8B17440E9963338F66BF3E94 /* Debug */,
+				60427AA8DC9856FF5413DA8344102B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885D9C7771FDDE70B246281EED23489D /* Build configuration list for PBXNativeTarget "TipJarComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDCCDD4025A6460FB8DD7E329B47269 /* Debug */,
+				1BE813D25D46BB29A78C01A1F762FBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
