@@ -12,6 +12,10 @@ public class TipJarManager: NSObject {
 
     private var window: TipJarWindow?
 
+    public var hasReceivedTips: Bool {
+        return !TipPersistenceManager.shared.tips.isEmpty
+    }
+
     public func tipJarViewController(with model: TipJarViewController.Model) -> TipJarViewController? {
         let storyboard = UIStoryboard(name: "TipJar", bundle: Bundle.resourceBundle(for: self.classForCoder))
         guard let controller = storyboard.instantiateInitialViewController() as? TipJarViewController else {
