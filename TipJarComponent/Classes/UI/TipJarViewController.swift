@@ -124,7 +124,9 @@ public final class TipJarViewController: UIViewController {
         storeManager.fetchProducts { [weak self] products in
             guard let self = self else { return }
 
-            self.configureView(with: products.sorted(by: { $0.price.doubleValue < $1.price.doubleValue }))
+            DispatchQueue.main.async {
+                self.configureView(with: products.sorted(by: { $0.price.doubleValue < $1.price.doubleValue }))
+            }
         }
     }
 
