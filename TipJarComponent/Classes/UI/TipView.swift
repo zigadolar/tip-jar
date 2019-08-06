@@ -20,7 +20,7 @@ class TipView: UIView {
     @IBOutlet private var containerView: UIView!
 
     @IBOutlet private var emojiLabel: UILabel!
-    @IBOutlet private var descriptionLabel: UILabel!
+    @IBOutlet private(set) var descriptionLabel: UILabel!
     @IBOutlet var purchaseButton: UIButton!
 
     @IBOutlet var activityIndicator: UIActivityIndicatorView!

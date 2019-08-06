@@ -67,6 +67,15 @@ public final class TipJarViewController: UIViewController {
 
     public var standalone: Bool = false
     public weak var delegate: TipJarViewControllerDelegate?
+    public var textColor: UIColor? {
+        didSet {
+            guard let color = textColor else {
+                return
+            }
+
+            updateTextColor(with: color)
+        }
+    }
 
     public func configure(with model: Model)
     {
@@ -80,6 +89,12 @@ public final class TipJarViewController: UIViewController {
 
         containerView.roundCorners(20)
         configureView()
+
+        guard let color = textColor else {
+            return
+        }
+
+        updateTextColor(with: color)
     }
 
     override public func viewWillAppear(_ animated: Bool) {
@@ -171,6 +186,10 @@ public final class TipJarViewController: UIViewController {
             view.delegate = self
             tipViewsStackView.addArrangedSubview(view)
 
+            if let color = textColor {
+                view.descriptionLabel.textColor = color
+            }
+
             if let lastView = previousView {
                 lastView.purchaseButton.widthAnchor.constraint(equalTo: view.purchaseButton.widthAnchor).isActive = true
             }
@@ -257,6 +276,10 @@ public final class TipJarViewController: UIViewController {
                 }
             }
         }
+    }
+
+    private func updateTextColor(with color: UIColor) {
+        [loadingLabel, topLabel, bottomLabel, totalTipsLabel, thankYouLabel, thankYouTotalLabel].forEach { $0?.textColor = color }
     }
 }
 
