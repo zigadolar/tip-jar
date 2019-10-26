@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TipJarComponent'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'An iOS component for providing users an option to tip the developer.'
 
   s.description      = <<-DESC
