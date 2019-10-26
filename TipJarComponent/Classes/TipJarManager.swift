@@ -51,6 +51,7 @@ public class TipJarManager: NSObject {
         }
 
         controller.standalone = true
+        controller.modalPresentationStyle = .fullScreen
 
         DispatchQueue.main.async {
             self.window?.rootViewController?.present(controller, animated: true)
