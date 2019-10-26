@@ -31,6 +31,7 @@ public final class TipJarViewController: UIViewController {
     }
 
     private var model: Model!
+    private var didAppear: Bool = false
 
     private lazy var storeManager: StoreManager = {
         StoreManager.productIdentifiers = Array(model.products.keys)
@@ -99,6 +100,10 @@ public final class TipJarViewController: UIViewController {
 
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+
+        guard !didAppear else { return }
+
+        didAppear = true
 
         fetchStuff()
     }
